@@ -7,19 +7,23 @@
     <title>Gomi Gomi</title>
 </head>
 
-<body style="margin-left: 40px; margin-right: 40px; margin-bottom: 50px; font-size: 1.2rem; font-family: Georgia, 'Times New Roman', Times, serif;">
+<body style="background-color: #eee4a1; margin-left: 30px; margin-right: 30px; margin-bottom: 50px; font-size: 1.2rem; font-family: Georgia, 'Times New Roman', Times, serif; line-height: 1.5rem;">
     <!-- modern minimalist / graffiti inspired 
 2) very simple and navigable (see #1)
 3) a home page with a mission statement thingy and a form to request an appointment 
 4) a shop/merch page mostly for bumper stickers
 5) a gallery page of previous work -->
-    <h1 style="padding-bottom: 20px;">Gomi Enterprises</h1>
+    <h1 style="padding-bottom: 20px;">Gomi Studios</h1>
     <img src="image1.png" alt=""
-        style="float: right; margin-top: 40px; margin-right: 100px; margin-bottom: 40px; margin-left: 60px; rotate: -25deg; width: auto; max-height: 600px;">
-    <h2><a href="#gallery">GALLERY</a></h2>
-    <h2><a href="#shop">$ SHOP $</a></h2>
-    <section>
+        style="rotate: -25deg; display: block; margin: 10px 40px; width: 70%; max-width: 350px;">
+    <header style="display: inline-flex; width: 50%; flex-wrap: wrap; justify-content: space-between; align-content: space-between;">
+        <h3><a href="#gallery">GALLERY</a></h3>
+        <h3><a href="#contact">DROP A LINE</a></h3>
+        <h3><a href="#shop">$SHOP$</a></h3>
+    </header>
+    <section style="max-width: 540px;">
         <h4>HOWDY!</h4>
+        <img src="catmaxxing.jpeg" style="width: 250px;"/>
         <p>I'm Cody. I'm an elementary school teacher tasked with molding young minds and championing the arts. While
             the classroom is deeply rewarding, it isn't a completely fulfilling outlet for my creative ambitions.</p>
         <p>A lifelong Oregonian, I currently live in SE Portland with my wife, our five-year-old son, and two perfect
@@ -43,19 +47,23 @@
         <p><b>Bottom Line:</b> Please let me spice up your daily routine just a wee lil' bit and draw more people into your
             establishment. If you have a wall or space in mind, let's talk-I'd greatly appreciate any opportunity. Don't
             hesitate to email, call, or text!</p>
-        <h4>LET'S TALK</h4>
-        <form style="max-width: 500px;" action="mailto:holecody9@gmail.com">
-            <textarea style="display: block; width: inherit;"></textarea>
-            <button type="submit" style="justify-self:end;">Send</button>
+        </section>
+    <section style="padding-top: 30px;" id="contact">
+        <h3>LET'S TALK</h3>
+        <hr />
+        <form style="width: 300px;" action="mailto:holecody9@gmail.com">
+            <textarea style="display: block; border-radius: 10px; font-size: 1.3rem; font-family: Georgia, Times, 'Times New Roman', serif; border: 3px dashed red; margin-top: 20px; width: 300px; height: 140px;">Hi Cody,
+My space is drab and I need you to spice it up.</textarea>
+            <button type="submit" style="cursor: pointer; display: block; border-style: dashed; border-color: #eee4a1; padding: 10px; margin-left: auto; margin-right: 0px; border-radius: 10px; margin-top: 10px; background-color: red; color: white;">SEND IT!</button>
         </form>
     </section>
-    <section id="gallery">
+    <section style="padding-top: 30px;" id="gallery">
         <h3>GALLERY OF WORK</h3>
         <hr />
-        <img style="height: 400px; padding-right: 20px;" src="catmaxxing.jpeg" />
-        <img style="height: 400px;" src="image1.png" alt="" srcset="">
+        <img style="width: 90%; max-width: 300px; padding-right: 20px;" src="catmaxxing.jpeg" />
+        <img style="width: 90%; max-width: 300px;" src="image1.png" alt="" srcset="">
     </section>
-    <section id="shop">
+    <section style="padding-top: 30px;" id="shop">
         <h3>SHOP</h3>
         <hr />
         <h5>SORRY, SHOP UNDER CONSTRUCTION</h5>
